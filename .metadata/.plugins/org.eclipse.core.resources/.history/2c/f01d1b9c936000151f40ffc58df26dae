@@ -1,0 +1,14 @@
+package codebeer;
+
+public class sup {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public static int power(int base, int power) {
+		return 8;
+	}
+
+}

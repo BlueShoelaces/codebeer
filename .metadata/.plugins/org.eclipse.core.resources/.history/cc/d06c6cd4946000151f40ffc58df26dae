@@ -1,0 +1,18 @@
+package codebeer;
+
+public class sup {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public static int power(int base, int power) {
+		int product = 1;
+		for (int timesMultiplied = 0; timesMultiplied < power; timesMultiplied++) {
+			product *= base;
+		}
+		return product;
+	}
+
+}

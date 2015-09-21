@@ -1,0 +1,12 @@
+package codebeer;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class supTest {
+	@Test
+	public void testPower() throws Exception {
+		sup.power(2, 3)
+	}
+}
