@@ -12,11 +12,11 @@ public class ConsoleBoardDisplayerTest {
 
 		final StringBuilder theBoard = new StringBuilder();
 
-		theBoard.append("====================================");
+		theBoard.append("====================================\n");
 		for (int i = 0; i < 10; i++) {
-			theBoard.append("|                                  |");
+			theBoard.append("|                                  |\n");
 		}
-		theBoard.append("====================================");
+		theBoard.append("====================================\n");
 
 		final String expectedString = theBoard.toString();
 		assertEquals(expectedString, boardDisplayer.getBoardString());
